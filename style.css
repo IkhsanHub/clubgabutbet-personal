@@ -1,0 +1,79 @@
+body {
+    background-color: hsl(197, 83%, 68%);
+}
+
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.slide {
+    margin: auto;
+    text-align: center;
+    border: 2px solid hsl(0, 0%, 0%);
+    background-color: hsl(61, 83%, 65%);
+    max-width: 600px;
+    border-width: 7px;
+    cursor: pointer;
+}
+
+div.slide:hover {
+    background-color: hsl(61, 64%, 61%);
+}
+
+#bodyBox {
+    margin: auto;
+    text-align: center;
+    border: 2px solid hsl(0, 0%, 0%);
+    background-color: hsl(61, 83%, 65%);
+    max-width: 600px;
+    border-width: 7px;
+    display: none;
+}
+
+#paragraph {
+    border: 3px solid hsl(0, 0%, 0%);
+    margin: auto;
+    padding-top: 15px;
+    font-size: 20px;
+    background-color: hsl(34, 68%, 75%);
+    width: 390px;
+}
+
+h1 {
+    margin: auto;
+    border: 3px solid hsl(0, 0%, 0%);
+    background-color: hsl(46, 72%, 65%);
+    width: 430px;
+}
+
+.audiodiv {
+    border: 3px solid hsl(0, 0%, 0%);
+    margin: auto;
+    padding-top: 15px;
+    background-color: hsl(33, 66%, 83%);
+    width: 390px;
+    text-align: center;
+}
+
+button {
+    font-size: 20px;
+    border: 2px solid hsl(0, 0%, 0%);
+    padding: 3px 5px;
+    background-color: hsl(0, 74%, 54%);
+    color: hsl(0, 0%, 100%);
+	cursor: pointer;
+	transition: 0,25s;
+}
+
+button:hover {
+	background-color: red;
+}
+
+#youtubeChannel {
+    margin: auto;
+    border: 3px solid hsl(0, 0%, 0%);
+    font-size: 22px;
+    width: 390px;
+}
+
+a.linkToBand:visited {color: blue}

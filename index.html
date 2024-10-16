@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/jpg" href="/images/Soekarno.jpeg">
+        <title>Random</title>
+        <link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    </head>
+
+    <body><br>
+	<div class="slide">Click here to open it!</div>
+	<div id="bodyBox">
+        <br><h1 id="h1"></h1>
+
+        <p><div id="paragraph">Mengapa saya membuat HTML ini?<br>
+        Pasti ada alasan tertentu, kan?</p>
+
+        <p>Mungkin saya hanya ingin menunjukkan kalian beberapa file lagu ini kepada kalian.</div></p>
+
+        <p><div class="audiodiv">Hellraiser by <a class="linkToBand" href="https://en.wikipedia.org/wiki/Mot%C3%B6rhead" target="_blank">Mötorhead</a></p>
+        <p><audio controls>
+            <source src="https://github.com/Octyldodecanol1304/Gabut-HTML/raw/main/Hellraiser.mp3" />
+        </div></audio></p>
+       
+        <p><div class="audiodiv">Crazy Train by <a class="linkToBand" href="https://en.wikipedia.org/wiki/Ozzy_Osbourne" target="_blank">Ozzy Osbourne</a>
+        <p><audio controls>
+            <source src="https://github.com/Octyldodecanol1304/Gabut-HTML/raw/main/Crazy%20Train.mp3" />
+        </div></audio></p>
+
+        <p><div class="audiodiv">Hardwired by <a class="linkToBand"  href="https://en.wikipedia.org/wiki/Metallica" target="_blank">Metallica</a>
+        <p><audio controls>
+            <source src="https://github.com/Octyldodecanol1304/Gabut-HTML/raw/main/Hardwired.mp3" />
+        </div></audio></p>
+
+        <button onclick="openTab()">Click Me</button>
+
+        <br><br>
+
+        <p id="youtubeChannel" style="background-color: hsl(33, 75%, 70%)">Btw, subscribe <a href="https://www.youtube.com/@danishstuff06" target="_blank">channel </a>ini :v</p><br>
+
+        <script>
+            document.getElementById("h1").innerHTML = "Gabut mah, belajar JavaScript";
+            function openTab() {
+                window.open("https://youtu.be/dQw4w9WgXcQ?si=jpirb76BP_L_MoKy", "_blank");
+            }
+            
+            $(document).ready(function(){
+                $(".slide").click(function(){
+                    $("#bodyBox").slideToggle("slow");
+                });
+            });
+        </script>
+        </div>
+    </body><br><br>
+</html>
